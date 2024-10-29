@@ -6,12 +6,20 @@
 }
 
 html {
-  color-scheme: dark;
+  color-scheme: white;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
 }
 
 .container {
   width: 100%;
   max-width: 1280px;
   margin: 0 auto;
-  padding-inline: 0 20px;
+  padding-inline: 20px;
 }
