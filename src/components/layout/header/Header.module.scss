@@ -1,0 +1,37 @@
+#Header {
+  padding: 30px 0;
+  box-shadow: 5px 8px 24px 0px #0000001a;
+  .Header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .Header_nav {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 500px;
+      a {
+        text-decoration: none;
+        color: black;
+      }
+    }
+    .Header_buttons {
+      display: flex;
+      align-items: center;
+      gap: 30px;
+      input {
+        width: 187px;
+        height: 43px;
+        background: #fffffff2;
+        border: 0.8px solid #5609bb33;
+        border-radius: 2px;
+      }
+      select {
+        background: none;
+        border: none;
+        font-size: 18px;
+        outline: none;
+      }
+    }
+  }
+}

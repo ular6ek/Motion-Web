@@ -9,9 +9,9 @@ const HomePage = () => {
     <>
       {/* <MainPage /> */}
       {/* <OthersPage /> */}
-       <AbroadPage /> 
-       <AboutPage />
-      <CountriesPage/>
+       {/* <AbroadPage />  */}
+       {/* <AboutPage /> */}
+      {/* <CountriesPage/> */}
     </>
   );
 };
