@@ -4,6 +4,7 @@ import scss from "./CountriesPage.module.scss";
 import down from "/src/assets/images/down.png";
 import flag from "/src/assets/images/country.png";
 import { useWindowSize } from "react-use";
+import Solbrige from "../SolbrigeUniversity/Solbrige";
 
 const CountriesPage = () => {
   const [isOpen, setIsOpen] = useState([false, false, false]);
@@ -67,6 +68,7 @@ const CountriesPage = () => {
           ))}
         </ul>
       </div>
+      <Solbrige />
     </section>
   );
 };

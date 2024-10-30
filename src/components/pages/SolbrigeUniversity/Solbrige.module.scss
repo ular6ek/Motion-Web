@@ -1,0 +1,110 @@
+#Solbrige {
+  .solbrige {
+    .T {
+      font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+      font-size: 40px;
+      font-weight: 500;
+      line-height: 48.52px;
+      color: rgba(26, 162, 238, 1);
+      margin: 60px;
+    }
+
+    .Block {
+      display: flex;
+      gap: 100px;
+      align-items: flex-start;
+
+      img {
+        width: 100%;
+        height: auto;
+      }
+
+      .blockText {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+
+        .Bl1 {
+          display: flex;
+          border: 1px solid rgba(187, 187, 187, 1);
+          text-align: center;
+          .TT {
+            width: 500px;
+            display: flex;
+            align-items: start;
+            font-family: "Franklin Gothic Medium", "Arial Narrow", Arial,
+              sans-serif;
+            font-size: 20px;
+            font-weight: 500;
+            letter-spacing: 1.5px;
+            color: #333;
+            text-align: start;
+            padding: 20px;
+          }
+          span {
+            font-weight: bold;
+            color: #666;
+            letter-spacing: 1.5px;
+          }
+        }
+        h1 {
+          font-family: "Franklin Gothic Medium", "Arial Narrow", Arial,
+            sans-serif;
+          font-size: 20px;
+          font-weight: 500;
+          letter-spacing: 1.5px;
+          color: #333;
+          text-align: center;
+          border: 1px solid rgba(187, 187, 187, 1);
+          padding: 25px;
+
+          span {
+            font-weight: bold;
+            color: #666;
+            letter-spacing: 1.5px;
+          }
+        }
+      }
+    }
+
+.tabComponent {
+  margin-top: 20px; 
+
+  .tabs {
+    width: 200px;
+    display: flex; 
+    margin-bottom: 10px;
+
+    button {
+      padding: 10px 15px; 
+      border: 1px solid #ced4da; 
+      background: lightgray;  
+      cursor: pointer; 
+      transition: background 0.3s; 
+      &.active {
+        background: #343a40;  
+        color: white;  
+      }
+
+      &:hover {
+        background: #adb5bd;  
+      }
+
+      &:not(:last-child) {
+        border-right: none; 
+      }
+    }
+  }
+
+  .tabContent {
+    margin-top: 10px;  
+    padding: 15px;  
+    border: 1px solid #ced4da;  
+    background: #ffffff;   
+    border-radius: 5px;  
+  }
+}
+
+  }
+}
