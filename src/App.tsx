@@ -1,33 +1,33 @@
 import { Route, Routes } from "react-router-dom";
-import LayoutSite from "./components/layout/LayoutSite";
-import HomePage from "./components/pages/HomePage";
+import AboutPage from "./components/pages/AboutPage/About";
+import Header from "./components/layout/header/Header";
 
 const App = () => {
   const routes = [
     {
       id: 1,
       path: "/",
-      element: <HomePage />,
+      element: <AboutPage />,
     },
     {
       id: 2,
       path: "/about",
-      element: <HomePage />,
+      element: <AboutPage />,
     },
     {
       id: 3,
       path: "/study",
-      element: <HomePage />,
+      element: <AboutPage />,
     },
     {
       id: 4,
       path: "/contacts",
-      element: <HomePage />,
+      element: <AboutPage />,
     },
   ];
   return (
     <>
-      <LayoutSite />
+      <Header />
       <Routes>
         {routes.map((item) => (
           <Route path={item.path} element={item.element} key={item.id} />

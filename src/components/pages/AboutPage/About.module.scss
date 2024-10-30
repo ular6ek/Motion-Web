@@ -1,8 +1,8 @@
 .AboutPage {
+  padding: 100px 0;
   .Block {
     display: flex;
     justify-content: space-between;
-
     .imagesBlock {
       position: relative;
 
@@ -86,8 +86,7 @@
 
     .TeamGrid {
       display: flex;
-      justify-content:space-between;
- 
+      justify-content: space-between;
 
       .TeamMember {
         display: flex;

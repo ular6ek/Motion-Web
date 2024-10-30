@@ -12,17 +12,17 @@ const Header = () => {
     {
       id: 2,
       name: "About Us",
-      to: "/",
+      to: "/about",
     },
     {
       id: 3,
       name: "Study Abroad",
-      to: "/",
+      to: "/study",
     },
     {
       id: 4,
       name: "Contacts",
-      to: "/",
+      to: "/contacts",
     },
   ];
   return (
