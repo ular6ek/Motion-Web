@@ -1,13 +1,16 @@
 import { Route, Routes } from "react-router-dom";
-import AboutPage from "./components/pages/AboutPage/About";
+import AboutPage from "./components/pages/aboutPage/About";
 import Header from "./components/layout/header/Header";
+import CountriesPage from "./components/pages/countries/CountriesPage";
+import MainPage from "./components/pages/main/MainPage";
+import ContactsPage from "./components/pages/contacts/ContactsPage";
 
 const App = () => {
   const routes = [
     {
       id: 1,
       path: "/",
-      element: <AboutPage />,
+      element: <MainPage />,
     },
     {
       id: 2,
@@ -17,12 +20,12 @@ const App = () => {
     {
       id: 3,
       path: "/study",
-      element: <AboutPage />,
+      element: <CountriesPage />,
     },
     {
       id: 4,
       path: "/contacts",
-      element: <AboutPage />,
+      element: <ContactsPage />,
     },
   ];
   return (

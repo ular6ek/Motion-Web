@@ -38,7 +38,7 @@ const Header = () => {
             ))}
           </div>
           <div className={scss.Header_buttons}>
-            <input type="text" />
+            <input type="text" placeholder="  Поиск"/>
             <select>
               <option value="EN" selected>
                 EN
