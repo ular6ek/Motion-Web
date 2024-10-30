@@ -4,6 +4,7 @@ import Header from "./components/layout/header/Header";
 import CountriesPage from "./components/pages/countries/CountriesPage";
 import MainPage from "./components/pages/main/MainPage";
 import ContactsPage from "./components/pages/contacts/ContactsPage";
+import Footer from "./components/layout/footer/Footer";
 
 const App = () => {
   const routes = [
@@ -29,14 +30,15 @@ const App = () => {
     },
   ];
   return (
-    <>
+    <div className="App">
       <Header />
       <Routes>
         {routes.map((item) => (
           <Route path={item.path} element={item.element} key={item.id} />
         ))}
       </Routes>
-    </>
+      <Footer />
+    </div>
   );
 };
 

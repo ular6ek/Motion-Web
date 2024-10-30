@@ -23,3 +23,10 @@ a {
   margin: 0 auto;
   padding-inline: 20px;
 }
+
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
+}
