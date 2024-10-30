@@ -1,0 +1,156 @@
+.AboutPage {
+  .Block {
+    display: flex;
+    justify-content: space-between;
+
+    .imagesBlock {
+      position: relative;
+
+      .img {
+        width: auto;
+        height: auto;
+
+        position: relative;
+      }
+
+      &::before {
+        content: "";
+        position: absolute;
+        border: 3px solid rgba(33, 33, 33, 1);
+        transform: translate(-10px, -10px);
+        width: 493px;
+        height: 496px;
+        top: 115px;
+        left: -70px;
+        gap: 0px;
+        border: 3px 0px 0px 0px;
+        opacity: 0.8px;
+      }
+    }
+
+    .textBlock {
+      max-width: 500px;
+      margin-top: 75px;
+
+      h3 {
+        color: #4a90e2;
+        font-weight: bold;
+        font-size: 25px;
+        font-weight: 700;
+        line-height: 32px;
+        padding: 15px;
+        text-align: left;
+      }
+
+      h1 {
+        font-weight: bold;
+        margin: 10px 0;
+        font-size: 52px;
+        font-weight: 500;
+        line-height: 64px;
+        text-align: left;
+        padding: 10px;
+      }
+      .P {
+        font-weight: bold;
+        font-size: 25px;
+        font-weight: 400;
+        line-height: 32px;
+        text-align: left;
+      }
+
+      p {
+        padding: 10px;
+
+        color: #666;
+        line-height: 1.6;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 32px;
+        text-align: left;
+
+        &:first-of-type {
+          margin-bottom: 10px;
+        }
+      }
+    }
+  }
+  .T {
+    text-align: center;
+    margin: 120px;
+  }
+  .OurTeam {
+    flex-direction: column;
+    display: flex;
+    gap: 50px;
+
+    .TeamGrid {
+      display: flex;
+      justify-content:space-between;
+ 
+
+      .TeamMember {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 335px;
+        text-align: center;
+        background-color: #fff;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+        img {
+          width: 100%;
+          height: auto;
+          border-top: 8px;
+        }
+
+        h1 {
+          font-size: 1rem;
+          margin: 10px 0 5px;
+          padding: 6px;
+        }
+
+        h3 {
+          font-size: 0.9rem;
+          color: rgba(123, 106, 255, 0.5);
+          padding: 6px;
+        }
+      }
+    }
+  }
+}
+.TeamGrid2 {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-between;
+  .TeamMember {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 335px;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+    img {
+      width: 100%;
+      height: auto;
+      border-top: 8px;
+    }
+
+    h1 {
+      font-size: 1rem;
+      margin: 10px 0 5px;
+      padding: 6px;
+    }
+
+    h3 {
+      font-size: 0.9rem;
+      color: rgba(123, 106, 255, 0.5);
+      padding: 6px;
+    }
+  }
+}

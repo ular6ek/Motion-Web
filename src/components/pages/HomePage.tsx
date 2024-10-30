@@ -1,3 +1,4 @@
+import AboutPage from "./AboutPage/About";
 import AbroadPage from "./abroad/AbroadPage";
 import CountriesPage from "./countries/CountriesPage";
 import scss from "./HomePage.module.scss";
@@ -8,7 +9,8 @@ const HomePage = () => {
     <>
       {/* <MainPage /> */}
       {/* <OthersPage /> */}
-      {/* <AbroadPage /> */}
+       <AbroadPage /> 
+       <AboutPage />
       <CountriesPage/>
     </>
   );
