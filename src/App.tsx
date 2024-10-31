@@ -4,7 +4,7 @@ import CountriesPage from "./components/pages/countries/CountriesPage";
 import MainPage from "./components/pages/main/MainPage";
 import ContactsPage from "./components/pages/contacts/ContactsPage";
 import Footer from "./components/layout/footer/Footer";
-import AboutPage from "./components/pages/AboutPage/About";
+import AboutPage from "./components/pages/aboutPage/About";
 
 const App = () => {
   const routes = [

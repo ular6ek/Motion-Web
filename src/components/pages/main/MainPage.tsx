@@ -4,6 +4,7 @@ import motion_web_main from "../../../assets/images/motion_web_main.svg";
 import contact from "../../../assets/images/contacts_2.svg";
 import contact_1 from "../../../assets/images/contacts_1.svg";
 import OthersPage from "./OthersPage";
+import ExamsPage from "./ExamsPage";
 const MainPage = () => {
   return (
     <>
@@ -42,6 +43,7 @@ const MainPage = () => {
         </div>
       </section>
       <OthersPage />
+      <ExamsPage />
     </>
   );
 };
