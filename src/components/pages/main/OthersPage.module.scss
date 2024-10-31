@@ -1,0 +1,41 @@
+#Others {
+  padding: 100px 0;
+  .Others {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .Others_left {
+      display: flex;
+      flex-direction: column;
+      align-items: start;
+      gap: 50px;
+      h1 {
+        width: 423px;
+        font-size: 48px;
+        font-weight: 500;
+        line-height: 58.22px;
+        color: #212121;
+      }
+      p {
+        width: 455px;
+        font-size: 19px;
+        font-weight: 400;
+        line-height: 33px;
+        color: #010d39;
+      }
+    }
+    .Others_right {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 40px;
+      justify-content: end;
+      .Others_block {
+        width: 272px;
+        height: 297px;
+        border-radius: 8px;
+        background: #ffffff;
+        box-shadow: 5px 8px 24px 0px #0000001a;
+      }
+    }
+  }
+}
