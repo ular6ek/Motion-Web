@@ -1,0 +1,20 @@
+#Students {
+  h1 {
+    font-size: 44px;
+    font-weight: 500;
+    color: #212121;
+    text-align: center;
+  }
+  .Students {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    overflow-x: scroll;
+    gap: 30px;
+    padding: 100px 0;
+
+    img {
+      cursor: pointer;
+    }
+  }
+}

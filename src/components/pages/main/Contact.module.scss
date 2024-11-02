@@ -1,0 +1,75 @@
+.container {
+    display: flex;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
+  }
+  
+  .formSection, .contactInfoSection {
+    padding: 2rem;
+  }
+  
+  .formSection {
+    background-color: #f7f7f7;
+    flex: 1;
+  }
+  
+  .contactInfoSection {
+    background-color: #6200ea;
+    color: #ffffff;
+    flex: 1;
+    text-align: center;
+  
+    .socialIcons {
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+      margin-top: 1rem;
+    }
+  
+    .map {
+      margin-top: 1rem;
+      width: 100%;
+      height: 150px;
+      background-color: #cccccc; // Placeholder for map
+    }
+  }
+  
+  h2 {
+    margin-bottom: 1rem;
+  }
+  
+  .inputRow {
+    display: flex;
+    gap: 1rem;
+  
+    input {
+      flex: 1;
+    }
+  }
+  
+  input, textarea {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  button {
+    background-color: #007bff;
+    color: #ffffff;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  
+    &:hover {
+      background-color: #0056b3;
+    }
+  }
+  
