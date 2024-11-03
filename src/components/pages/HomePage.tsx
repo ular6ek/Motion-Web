@@ -7,7 +7,7 @@ import OthersPage from "./others/OthersPage";
 const HomePage = () => {
   return (
     <>
-      {/* <MainPage /> */}
+      <MainPage />
       {/* <OthersPage /> */}
        {/* <AbroadPage />  */}
        {/* <AboutPage /> */}
