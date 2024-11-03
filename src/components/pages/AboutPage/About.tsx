@@ -14,7 +14,7 @@ const AboutPage = () => {
         <div className={scss.About}>
           <div className={scss.Block}>
             <div className={scss.imagesBlock}>
-              <div className={scss.img}>
+              <div className={scss.images}>
                 <img src={img} alt="" />
               </div>
             </div>

@@ -1,12 +1,13 @@
 .AboutPage {
-  padding: 100px 0;
+  padding: 80px 0;
+
   .Block {
     display: flex;
     justify-content: space-between;
     .imagesBlock {
       position: relative;
 
-      .img {
+      .images {
         width: auto;
         height: auto;
 
@@ -75,24 +76,34 @@
       }
     }
   }
+
   .T {
     text-align: center;
-    margin: 120px;
+    margin: 10pc;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 58.22px;
   }
-  .OurTeam {
-    flex-direction: column;
-    display: flex;
-    gap: 50px;
 
-    .TeamGrid {
+  .OurTeam {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+
+    .TeamGrid,
+    .TeamGrid2 {
       display: flex;
+      gap: 20px;
       justify-content: space-between;
 
       .TeamMember {
         display: flex;
         flex-direction: column;
         align-items: center;
-        width: 335px;
+        width: 100%;
+        max-width: 280px;
         text-align: center;
         background-color: #fff;
         border-radius: 8px;
@@ -118,38 +129,134 @@
       }
     }
   }
-}
-.TeamGrid2 {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
-  justify-content: space-between;
-  .TeamMember {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 335px;
-    text-align: center;
-    background-color: #fff;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 
-    img {
-      width: 100%;
-      height: auto;
-      border-top: 8px;
+  @media (max-width: 830px) {
+    padding: 60px 0 ;
+
+    .Block {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+       gap: 20px;
+      .imagesBlock {
+        .images {
+          img{
+            width: 400px;
+            
+          }
+        }
+        &::before {
+          display: none;
+        }
+      }
+
+      .textBlock {
+        max-width: 80%;
+        margin-top: 30px;
+        text-align: start;
+
+        h1 {
+          font-size: 24px;
+          line-height: 46px;
+        }
+
+        .P,
+        p {
+          font-size: 18px;
+          line-height: 28px;
+        }
+      }
     }
 
-    h1 {
-      font-size: 1rem;
-      margin: 10px 0 5px;
-      padding: 6px;
+    .T {
+      font-size: 26px;
+      margin: 40px 0;
     }
 
-    h3 {
-      font-size: 0.9rem;
-      color: rgba(123, 106, 255, 0.5);
-      padding: 6px;
+    .OurTeam {
+      gap: 30px;
+
+      .TeamGrid,
+      .TeamGrid2 {
+        gap: 15px;
+
+        .TeamMember {
+          max-width: 100%;
+          padding: 15px;
+          img {
+            max-width: 90%;
+            margin: 0 auto;
+          }
+        }
+      }
+    }
+  }
+
+  // Адаптация для мобильных устройств
+  @media (max-width: 540px) {
+    padding: 30px 0;
+
+    .Block {
+      flex-direction: column;
+      .textBlock {
+        order: 1;
+        max-width: 100%;
+        margin-top: 30px;
+
+        h1 {
+          font-size: 38px;
+          line-height: 46px;
+        }
+
+        .P,
+        p {
+          font-size: 18px;
+          line-height: 28px;
+        }
+      }
+
+      .imagesBlock {
+        order: 2;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+
+        .images {
+          width: 100%;
+          max-width: 90%;
+          margin: 0 auto;
+
+          img {
+            width: 100%;
+            height: auto;
+            object-fit: cover;
+          }
+        }
+
+        &::before {
+          display: none;
+        }
+      }
+    }
+
+    .T {
+      font-size: 22px;
+      margin: 30px 0;
+    }
+
+    .OurTeam .TeamGrid,
+    .OurTeam .TeamGrid2 {
+      flex-direction: column;
+      display: flex;
+      gap: 30px;
+
+      .TeamMember {
+        max-width: 100%;
+        padding: 10px;
+        img {
+          max-width: 80%;
+        }
+      }
     }
   }
 }

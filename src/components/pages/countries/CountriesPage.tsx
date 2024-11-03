@@ -3,12 +3,7 @@ import { useEffect, useRef, useState } from "react";
 import scss from "./CountriesPage.module.scss";
 import down from "/src/assets/images/down.png";
 import { useWindowSize } from "react-use";
-<<<<<<< HEAD
 import Solbrige from "../SolbrigeUniversity/Solbrige";
-=======
-import Flags from "./flags/Flags";
-import University from "./university/University";
->>>>>>> main
 
 const CountriesPage = () => {
   const [isOpen, setIsOpen] = useState([false, false, false]);
@@ -63,7 +58,6 @@ const CountriesPage = () => {
           {[...Array(3)].map((_, index) => renderFilterItem(index))}
         </div>
 
-<<<<<<< HEAD
         <ul className={scss.list}>
           {[...Array(6)].map((_, index) => (
             <li key={index} className={scss.item}>
@@ -72,10 +66,6 @@ const CountriesPage = () => {
             </li>
           ))}
         </ul>
-=======
-        {/* <Flags /> */}
-        <University />
->>>>>>> main
       </div>
       <Solbrige />
     </section>

@@ -1,4 +1,3 @@
-import React from 'react';
 import univer from "/src/assets/images/img.jpg";
 import scss from "./University.module.scss"
 const University = () => {
