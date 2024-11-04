@@ -1,10 +1,11 @@
 import React from 'react';
 import univer from "/src/assets/images/img.jpg";
 import scss from "./University.module.scss"
+import { NavLink } from 'react-router-dom';
 const University = () => {
     return (
-        <ul className={scss.list}>
-            <li className={scss.item}>
+        <div className={scss.list}>
+            <NavLink to="/study/univer/1" className={scss.item}>
                 <img src={univer} alt="universitet image" />
                 <div className={scss.marg}>
                     <span className={`${scss.title}`}>Name:</span>
@@ -18,8 +19,8 @@ const University = () => {
                     <span className={scss.title}>Age:</span>
                     <span className={scss.value}>From 16</span>
                 </div>
-            </li>
-        </ul>
+            </NavLink>
+        </div>
     );
 };
 

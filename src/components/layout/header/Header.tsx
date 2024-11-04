@@ -17,7 +17,7 @@ const Header = () => {
     {
       id: 3,
       name: "Study Abroad",
-      to: "/study",
+      to: "/abroad",
     },
     {
       id: 4,
