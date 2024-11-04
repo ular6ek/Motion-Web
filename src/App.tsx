@@ -8,6 +8,7 @@ import AbroadPage from "./components/pages/abroad/AbroadPage";
 import Flags from "./components/pages/countries/flags/Flags";
 import University from "./components/pages/countries/university/University";
 import Solbrige from "./components/pages/SolbrigeUniversity/Solbrige";
+import CountriesPage from "./components/pages/countries/CountriesPage";
 
 const App = () => {
   const routes = [

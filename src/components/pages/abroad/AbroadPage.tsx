@@ -1,10 +1,7 @@
 import scss from "./AbroadPage.module.scss";
 import img from "../../../assets/images/Bitmap.png";
 import { NavLink } from "react-router-dom";
-<<<<<<< HEAD
-=======
 import University from "../countries/university/University";
->>>>>>> d7f306189454f5b826079b723fdc8134edc06bf3
 
 const AbroadPage = () => {
   return (
@@ -40,13 +37,8 @@ const AbroadPage = () => {
               <li>- Universities and higher education establishments.</li>
               <li>- Universities and higher education establishments.</li>
             </ul>
-<<<<<<< HEAD
             <NavLink to="/study">
               <span>explore</span>{" "}
-=======
-            <NavLink to="/flags" className={scss.exploreLink}>
-              <span>Explore</span>
->>>>>>> d7f306189454f5b826079b723fdc8134edc06bf3
             </NavLink>
           </div>
         </div>
