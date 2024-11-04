@@ -3,9 +3,14 @@ import { useEffect, useRef, useState } from "react";
 import scss from "./CountriesPage.module.scss";
 import down from "/src/assets/images/down.png";
 import { useWindowSize } from "react-use";
+<<<<<<< HEAD
 import Flags from "./flags/Flags";
 import University from "./university/University";
 import { Route, Routes } from "react-router-dom";
+=======
+import Solbrige from "../SolbrigeUniversity/Solbrige";
+import Flags from "./flags/Flags";
+>>>>>>> d7f306189454f5b826079b723fdc8134edc06bf3
 
 const CountriesPage = () => {
   const [isOpen, setIsOpen] = useState([false, false, false]);
@@ -60,6 +65,7 @@ const CountriesPage = () => {
           {[...Array(3)].map((_, index) => renderFilterItem(index))}
         </div>
 
+<<<<<<< HEAD
         {/* // <ul className={scss.list}>
         //   {[...Array(6)].map((_, index) => (
         //     <li key={index} className={scss.item}>
@@ -72,6 +78,16 @@ const CountriesPage = () => {
           <Route path="" element={<Flags />} />
           <Route path="univer" element={<University />} />
         </Routes>
+=======
+        <ul className={scss.list}>
+          {[...Array(6)].map((_, index) => (
+            <li key={index} className={scss.item}>
+              <img src={Flags} alt="flag" />
+              <span>amerika</span>
+            </li>
+          ))}
+        </ul>
+>>>>>>> d7f306189454f5b826079b723fdc8134edc06bf3
       </div>
       {/* <Solbrige /> */}
     </section>
