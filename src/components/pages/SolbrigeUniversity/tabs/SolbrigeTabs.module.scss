@@ -1,0 +1,74 @@
+.tabComponent {
+  margin-top: 20px;
+
+  .tabs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1126px;
+    height: 65px;
+    top: 981px;
+    left: 130px;
+    gap: 100px;
+    border-top: 8px;
+    background: rgba(245, 245, 245, 1);
+    button {
+      padding: 10px 15px;
+      width: 393px;
+      background: rgba(245, 245, 245, 1);
+      font-size: 22px;
+      cursor: pointer;
+      transition: background 0.3s;
+      font-weight: 500;
+      color: rgba(33, 33, 33, 1);
+
+      &.active {
+        margin-top: 20px;
+        border-bottom: solid 2px rgba(255, 106, 106, 1);
+      }
+    }
+  }
+
+  .tabContent {
+    padding: 15px;
+    border: 1px solid #ced4da;
+    background: #ffffff;
+    border-radius: 5px;
+    font-size: 16px;
+
+    h2 {
+      font-size: 24px;
+      color: #1a8ee6;
+      margin-bottom: 5px;
+    }
+
+    p {
+      margin: 5px 0;
+      color: #333;
+
+      strong {
+        font-weight: bold;
+      }
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 5px;
+    }
+  }
+}
+.imagesStudents {
+  padding: 0 25px;
+  flex-direction: column;
+  display: flex;
+  gap:40px;
+  .images3 {
+    display: flex;
+    gap: 39px;
+  }
+  .images6 {
+    display: flex;
+    gap: 39px;
+  }
+}

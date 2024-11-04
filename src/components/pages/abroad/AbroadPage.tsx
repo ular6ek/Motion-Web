@@ -1,5 +1,7 @@
 import scss from "./AbroadPage.module.scss";
 import img from "../../../assets/images/Bitmap.png";
+import { NavLink } from "react-router-dom";
+import University from "../countries/university/University";
 
 const AbroadPage = () => {
   return (
@@ -35,9 +37,9 @@ const AbroadPage = () => {
               <li>- Universities and higher education establishments.</li>
               <li>- Universities and higher education establishments.</li>
             </ul>
-            <a href="">
-              <span>explore</span>{" "}
-            </a>
+            <NavLink to="/flags" className={scss.exploreLink}>
+              <span>Explore</span>
+            </NavLink>
           </div>
         </div>
       </div>

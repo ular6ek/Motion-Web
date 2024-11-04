@@ -12,6 +12,7 @@ const MainPage = () => {
       <ExamsPage />
       <StudentsPage />
       <ContactForm />
+
     </>
   );
 };

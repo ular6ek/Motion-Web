@@ -4,6 +4,7 @@ import scss from "./CountriesPage.module.scss";
 import down from "/src/assets/images/down.png";
 import { useWindowSize } from "react-use";
 import Solbrige from "../SolbrigeUniversity/Solbrige";
+import Flags from "./flags/Flags";
 
 const CountriesPage = () => {
   const [isOpen, setIsOpen] = useState([false, false, false]);
@@ -61,7 +62,7 @@ const CountriesPage = () => {
         <ul className={scss.list}>
           {[...Array(6)].map((_, index) => (
             <li key={index} className={scss.item}>
-              <img src={flag} alt="flag" />
+              <img src={Flags} alt="flag" />
               <span>amerika</span>
             </li>
           ))}

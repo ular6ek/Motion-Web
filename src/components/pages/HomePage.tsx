@@ -4,6 +4,7 @@ import CountriesPage from "./countries/CountriesPage";
 import scss from "./HomePage.module.scss";
 import MainPage from "./main/MainPage";
 import OthersPage from "./others/OthersPage";
+import Solbrige from "./SolbrigeUniversity/Solbrige";
 const HomePage = () => {
   return (
     <>
@@ -12,6 +13,7 @@ const HomePage = () => {
        {/* <AbroadPage />  */}
        {/* <AboutPage /> */}
       {/* <CountriesPage/> */}
+      
     </>
   );
 };
