@@ -1,6 +1,10 @@
 import scss from "./AbroadPage.module.scss";
 import img from "../../../assets/images/Bitmap.png";
 import { NavLink } from "react-router-dom";
+<<<<<<< HEAD
+=======
+import University from "../countries/university/University";
+>>>>>>> 852217e2937fce559d81f2814c1286c5027b960e
 
 const AbroadPage = () => {
   return (
