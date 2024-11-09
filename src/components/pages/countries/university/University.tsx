@@ -5,10 +5,6 @@ const University = () => {
     return (
         <div className={scss.list}>
             <NavLink to="/study/univer/1" className={scss.item}>
-<<<<<<< HEAD
-=======
-
->>>>>>> 852217e2937fce559d81f2814c1286c5027b960e
                 <img src={univer} alt="universitet image" />
                 <div className={scss.marg}>
                   <span className={`${scss.title}`}>Name:</span>

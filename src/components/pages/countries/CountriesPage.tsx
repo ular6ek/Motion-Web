@@ -3,15 +3,9 @@ import { useEffect, useRef, useState } from "react";
 import scss from "./CountriesPage.module.scss";
 import down from "/src/assets/images/down.png";
 import { useWindowSize } from "react-use";
-<<<<<<< HEAD
 import Flags from "./flags/Flags";
 import University from "./university/University";
 import { Route, Routes } from "react-router-dom";
-=======
-import University from "./university/University";
-import { Route, Routes } from "react-router-dom";
-import Flags from "./flags/Flags";
->>>>>>> 852217e2937fce559d81f2814c1286c5027b960e
 
 const CountriesPage = () => {
   const [isOpen, setIsOpen] = useState([false, false, false]);
@@ -78,10 +72,6 @@ const CountriesPage = () => {
           <Route path="" element={<Flags />} />
           <Route path="univer" element={<University />} />
         </Routes>
-<<<<<<< HEAD
-=======
-
->>>>>>> 852217e2937fce559d81f2814c1286c5027b960e
       </div>
     </section>
   );
