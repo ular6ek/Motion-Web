@@ -16,7 +16,9 @@ const ContactForm = () => {
           </div>
           <input type="text" placeholder="Group or company" />
           <textarea placeholder="How can we help?" />
-          <button type="submit">Submit</button>
+          <center>
+            <button type="submit">Submit</button>
+          </center>
         </form>
       </div>
       <div className={styles.contactInfoSection}>
